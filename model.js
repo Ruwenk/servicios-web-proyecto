@@ -1,5 +1,6 @@
 const mongoose= require('mongoose');
 const userModel= new mongoose.Schema(
+  // se configuran los atributos de los usuarios y el tipo de dato//
 {
           nomuser:{
             type: String

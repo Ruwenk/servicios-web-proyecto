@@ -1,3 +1,4 @@
+// se realiza la conexion con la base de datos de mongo atraves de mongosse//
 const mongoose= require('mongoose');
 const dbconnect= ()=> {
 
