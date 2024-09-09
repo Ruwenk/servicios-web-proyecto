@@ -6,6 +6,18 @@ const userModel= new mongoose.Schema(
           },
           password:{
             type: String
+          },
+          email:{
+          type: String
+          },
+          ciudad:{
+            type: String
+          },
+          direccion:{
+            type: String
+          },
+          telefono:{
+            type: Number
           }
 },
 {
